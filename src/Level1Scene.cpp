@@ -151,6 +151,7 @@ void Level1Scene::start()
 
 	m_pDiceImage2 = new DiceImage("blank", glm::vec2(350, 100), 2);
 	m_pDiceImage2->setItem(0);
+	
 }
 
 glm::vec2 Level1Scene::getMousePosition()

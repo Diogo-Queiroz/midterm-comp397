@@ -1,5 +1,7 @@
 #include "GameManager.h"
 #include "Util.h"
+#include "TextureManager.h"
+#include "Game.h"
 
 GameManager* GameManager::s_pInstance;
 
