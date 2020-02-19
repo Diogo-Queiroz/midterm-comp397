@@ -7,6 +7,8 @@ RollButton::RollButton() : Button(
 	                           "rollButton", ROLL_BUTTON,
 	                           glm::vec2(100, 100)), m_isClicked(false)
 {
+	TheSoundManager::Instance()->load("../Assets/audio/button.mp3", "button",
+		sound_type::SOUND_MUSIC);
 }
 
 RollButton::~RollButton()
